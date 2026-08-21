@@ -1,0 +1,16 @@
+torch==2.6.0
+torchvision==0.21.0
+numpy
+pandas
+pillow
+matplotlib
+seaborn
+scikit-learn
+tqdm
+pyyaml
+jupyter
+ipykernel
+
+[dev]
+ruff
+pytest
