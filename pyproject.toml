@@ -1,0 +1,34 @@
+[project]
+name = "resnet50-transfer-learning-oxford-pets"
+version = "0.1.0"
+description = "Experimental study of ResNet-50 transfer learning on Oxford-IIIT Pet."
+requires-python = "==3.11.*"
+
+dependencies = [
+    "torch==2.6.0",
+    "torchvision==0.21.0",
+    "numpy",
+    "pandas",
+    "pillow",
+    "matplotlib",
+    "seaborn",
+    "scikit-learn",
+    "tqdm",
+    "pyyaml",
+    "jupyter",
+    "ipykernel",
+]
+
+[project.optional-dependencies]
+dev = [
+    "ruff",
+    "pytest",
+]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
