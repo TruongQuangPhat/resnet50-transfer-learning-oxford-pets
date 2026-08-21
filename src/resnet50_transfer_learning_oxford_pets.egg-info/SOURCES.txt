@@ -1,7 +1,0 @@
-README.md
-pyproject.toml
-src/resnet50_transfer_learning_oxford_pets.egg-info/PKG-INFO
-src/resnet50_transfer_learning_oxford_pets.egg-info/SOURCES.txt
-src/resnet50_transfer_learning_oxford_pets.egg-info/dependency_links.txt
-src/resnet50_transfer_learning_oxford_pets.egg-info/requires.txt
-src/resnet50_transfer_learning_oxford_pets.egg-info/top_level.txt

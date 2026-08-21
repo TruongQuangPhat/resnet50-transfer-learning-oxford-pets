@@ -1,5 +1,0 @@
-data
-evaluation
-models
-training
-visualization
