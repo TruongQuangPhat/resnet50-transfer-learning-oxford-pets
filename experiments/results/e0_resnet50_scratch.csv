@@ -1,0 +1,2 @@
+experiment,model,initialization,trainable_params,epochs,batch_size,learning_rate,weight_decay,best_epoch,best_val_accuracy,best_val_loss,test_accuracy,test_loss
+E0,ResNet-50,Random,23583845,30,16,0.001,0.0001,30,0.3383152173913043,2.31743656034055,0.28890705914418097,2.500295017746171
