@@ -1,0 +1,2 @@
+experiment,model,initialization,trainable_params,epochs,batch_size,learning_rate,weight_decay,best_epoch,best_val_accuracy,best_val_loss,test_accuracy,test_loss,strategy
+E3,ResNet-50,ImageNet,22138917,30,16,0.001,0.0001,26,0.9293478260869565,0.26582456231825863,0.8795312074134641,0.46823169616665045,Layer3 + Layer4 Fine-Tuning
