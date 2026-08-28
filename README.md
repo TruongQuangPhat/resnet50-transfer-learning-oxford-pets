@@ -407,11 +407,7 @@ flowchart LR
 
 The difference between E0 and E1 is dramatic:
 
-$$
-91.14\% - 28.89\%
-=
-62.25\text{ pp}
-$$
+`91.14% - 28.89% = 62.25 percentage points`
 
 The experiment strongly demonstrates the value of transfer learning for this task.
 
@@ -419,13 +415,8 @@ The experiment strongly demonstrates the value of transfer learning for this tas
 
 E1 and E2 produced the strongest test accuracy:
 
-$$
-E2 = 91.20\%
-$$
-
-$$
-E1 = 91.14\%
-$$
+- **E2:** `91.20%`
+- **E1:** `91.14%`
 
 Allowing Layer4 to adapt improved validation performance, but produced only a negligible test improvement over feature extraction.
 
@@ -439,15 +430,11 @@ More trainable parameters did not automatically imply better generalization unde
 
 E6 improved the E4 test result:
 
-$$
-87.22\% \rightarrow 90.46\%
-$$
+`87.22% → 90.46%`
 
-which is:
+This corresponds to an improvement of:
 
-$$
-+3.24\text{ pp}
-$$
+`+3.24 percentage points`
 
 The learning-rate sweep showed strong sensitivity to the optimization scale.
 
@@ -455,9 +442,7 @@ The learning-rate sweep showed strong sensitivity to the optimization scale.
 
 ColorJitter improved the E4-style result only modestly:
 
-$$
-87.22\% \rightarrow 87.63\%
-$$
+`87.22% → 87.63%`
 
 The combined ColorJitter + Rotation policy did not outperform ColorJitter alone.
 
