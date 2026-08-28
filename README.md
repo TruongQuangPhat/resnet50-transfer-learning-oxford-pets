@@ -296,7 +296,7 @@ Two hyperparameters were evaluated.
 ### Learning rate
 
 $$
-\eta\in
+\eta \in
 \left\{
 3\times10^{-4},
 10^{-3},
@@ -307,7 +307,7 @@ $$
 ### Weight decay
 
 $$
-\lambda\in
+\lambda \in
 \left\{
 10^{-5},
 10^{-4},
