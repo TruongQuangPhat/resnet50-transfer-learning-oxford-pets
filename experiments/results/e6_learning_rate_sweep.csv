@@ -1,0 +1,4 @@
+learning_rate,weight_decay,best_epoch,best_val_accuracy,checkpoint
+0.0003,0.0001,27,0.9307065217391305,../experiments/checkpoints/e6_lr_3e-04.pt
+0.001,0.0001,30,0.90625,../experiments/checkpoints/e6_lr_1e-03.pt
+0.003,0.0001,30,0.389945652173913,../experiments/checkpoints/e6_lr_3e-03.pt

@@ -1,0 +1,2 @@
+experiment,model,initialization,trainable_params,epochs,batch_size,learning_rate,weight_decay,best_epoch,best_val_accuracy,test_accuracy,test_loss,strategy,augmentation
+E5,ResNet-50,ImageNet,23583845,30,16,0.001,0.0001,26,0.9171195652173914,0.8762605614608885,0.47235253268779726,Full Fine-Tuning,color_jitter
