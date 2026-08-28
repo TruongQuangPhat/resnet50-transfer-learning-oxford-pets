@@ -291,28 +291,28 @@ The augmentation improvement was modest and did not recover the performance lost
 
 E6 investigates optimization rather than model architecture.
 
-Two hyperparameters were evaluated.
+Two hyperparameters were evaluated:
 
 ### Learning rate
 
 $$
 \eta \in
-\left\{
+\{
 3\times10^{-4},
 10^{-3},
 3\times10^{-3}
-\right\}
+\}
 $$
 
 ### Weight decay
 
 $$
 \lambda \in
-\left\{
+\{
 10^{-5},
 10^{-4},
 10^{-3}
-\right\}
+\}
 $$
 
 The search was staged:
@@ -332,35 +332,33 @@ Final test evaluation
 ## Learning-rate sweep
 
 | Learning rate | Best validation accuracy |
-|---:|---:|
-| $3\times10^{-4}$ | **93.07%** |
-| $10^{-3}$ | 90.22% |
-| $3\times10^{-3}$ | 38.99% |
+|---|---:|
+| `3×10⁻⁴` | **93.07%** |
+| `10⁻³` | 90.22% |
+| `3×10⁻³` | 38.99% |
 
-The result shows that the original $10^{-3}$ learning rate was not well suited to the full fine-tuning configuration, while $3\times10^{-3}$ was too aggressive.
+The result shows that the original `10⁻³` learning rate was not well suited to the full fine-tuning configuration, while `3×10⁻³` was too aggressive.
 
 ## Weight-decay sweep
 
 With the selected learning rate fixed at:
 
 $$
-\eta=3\times10^{-4}
+\eta = 3\times10^{-4}
 $$
 
 | Weight decay | Best validation accuracy |
-|---:|---:|
-| $10^{-5}$ | 93.75% |
-| $10^{-4}$ | **94.16%** |
-| $10^{-3}$ | 94.02% |
+|---|---:|
+| `10⁻⁵` | 93.75% |
+| `10⁻⁴` | **94.16%** |
+| `10⁻³` | 94.02% |
 
 The final configuration was:
 
 $$
-\boxed{
-\eta=3\times10^{-4},
-\quad
-\lambda=10^{-4}
-}
+\eta = 3\times10^{-4},
+\qquad
+\lambda = 10^{-4}
 $$
 
 ### Final E6 result
